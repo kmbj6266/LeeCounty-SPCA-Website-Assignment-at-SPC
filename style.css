@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background-color: #000099;
+	text-align: left;
+}
+
+table {border-collapse:collapse;
+ 	margin-left:auto; 
+    margin-right:auto;
+	font-size:12px;
+	padding-left:3px;
+	padding-right:2px;
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+  width:140px;
+}
+
+th {color:#000099;
+}
+
+p { font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+
+h1 {color:#FF0000;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	padding-top:4px;
+	margin-top:0px;
+}
+
+
+h2 {color:#000099;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.0em;
+	padding-bottom:4px;
+	padding-top:1px;
+	margin-bottom:0px;
+}
+
+h3 {color:#000099;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.0em;
+	text-align:center;
+	padding-bottom:4px;
+	padding-top:1px;
+	margin-bottom:0px;
+}
+
+a {color:#00FFFF;
+text-decoration:none;
+}
+
+a:hover {color:#FF0000;
+}
+
+a:visited {
+	color: #00AEEF;
+}
+
+a:active {
+	background-color: #FFFF00;
+}
+
+#top_container {
+	position: absolute;
+	left: 50px;
+	top: 24px;
+	width: 980px;
+	height: 150px;
+	z-index: -1;
+	background-color: #FFFFFF;
+	float: left;
+}
+
+#nav {
+	position: absolute;
+	background-color:#000000;
+	position: absolute;
+	width: 980px;
+	height: 36px;
+	left: 50px;
+	top: 172px;
+	color: #66ffff;
+}
+
+#main_home {
+	position: absolute;
+	left: 233px;
+	top: 219px;
+	width: 600px;
+	height: 550px;
+	z-index: 20;
+	background-color: #FFFFFF;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#main_donate {
+	position: absolute;
+	left: 233px;
+	top: 219px;
+	width: 600px;
+	height: 1100px;
+	z-index: 20;
+	background-color: #FFFFFF;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+#main_pet {
+	position: absolute;
+	left: 233px;
+	top: 219px;
+	width: 600px;
+	height: 1250px;
+	z-index: 20;
+	background-color: #FFFFFF;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+
+#top_left_ad {
+	position: absolute;
+	left: 50px;
+	top: 219px;
+	width: 183px;
+	height: 210px;
+	z-index: 5;
+	background-color: #00AEEF;
+}
+
+#top_right_ad {
+	position: absolute;
+	left: 847px;
+	top: 219px;
+	width: 183px;
+	height: 210px;
+	z-index: 16;
+}
+
+#Pet_of_week {
+	position: absolute;
+	left: 50px;
+	top: 428px;
+	width: 183px;
+	height: 183px;
+}
+#pet_info {
+	position: absolute;
+	left: 50px;
+	width: 183px;
+	height: 77px;
+	top: 611px;
+	font-weight: bold;
+	background-color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FF0000;
+	text-decoration: none;
+	padding-top: 4px;
+}
+
+#mid_right_ad {
+	position: absolute;
+	left: 846px;
+	top: 429px;
+	width: 184px;
+	height: 262px;
+	z-index: 17;
+}
+
+#bottom_left_ad {
+	position: absolute;
+	left: 50px;
+	top: 691px;
+	width: 183px;
+	height: 222px;
+	z-index: 18;
+}
+
+#bottom_right_ad {
+	position: absolute;
+	left: 847px;
+	top: 691px;
+	width: 182px;
+	height: 222px;
+	z-index: 19;
+}
+
+#footer {
+	position: absolute;
+	background-color: #000000;
+	color:#FFFFFF;
+	text-align: center;
+	left: 233px;
+	top: 769px;
+	width: 614px;
+	height: 144px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
